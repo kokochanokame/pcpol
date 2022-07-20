@@ -118,14 +118,14 @@ img {
 
 .bc {
   &__wrapper {
-	
+
   }
   &__items {
 	display: flex;
 	align-items: center;
 	gap: 17px;
   }
-  
+
   &__item {
 	font-family: $main-font;
 	font-size: 12px;
@@ -137,7 +137,7 @@ img {
 	text-align: left;
 	color: #000;
   }
-  
+
   &__link {
 	padding-right: 17px;
 	font-family: $main-font;
@@ -158,7 +158,7 @@ img {
 	  right: 0;
 	  top: 50%;
 	  transform: translate(-50%);
-	  background-image: url("/static/image/special/intereon2207/bc_arrow.png");
+	  background-image: url("/pc/static/image/special/intereon2207/bc_arrow.png");
 	  background-size: contain;
 	  background-repeat: no-repeat;
 	  background-position: center;
@@ -183,7 +183,7 @@ img {
    position: absolute;
    width: vw(1366,35);
    height:vw(1366,35);
-   background-image: url("/static/image/special/intereon2207/h1_bg.png");
+   background-image: url("/pc/static/image/special/intereon2207/h1_bg.png");
    background-size: contain;
    background-repeat: no-repeat;
    background-position: center;
@@ -195,7 +195,7 @@ img {
 
 .top {
   &__mv {
-	background-image: url("/static/image/special/intereon2207/mv_bg.png");
+	background-image: url("/pc/static/image/special/intereon2207/mv_bg.png");
     background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -223,7 +223,7 @@ img {
 overflow-x: hidden;
   width: 100vw;
   padding-bottom: vw(1366, 280);
-  background: url(/static/image/special/intereon2207/bg_main.png) repeat left top;
+  background: url(/pc/static/image/special/intereon2207/bg_main.png) repeat left top;
 }
 
 .production{
@@ -270,7 +270,7 @@ overflow-x: hidden;
   &__item {
 	width: vw(1366, 205.7);
 	height: vw(1366, 237.9);
-	background-image: url(/static/image/special/intereon2207/index.png);
+	background-image: url(/pc/static/image/special/intereon2207/index.png);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
@@ -282,7 +282,7 @@ overflow-x: hidden;
 
 
 	&:hover {
-	  background-image: url(/static/image/special/intereon2207/hover.png);
+	  background-image: url(/pc/static/image/special/intereon2207/hover.png);
 	}
   }
 }
@@ -308,7 +308,7 @@ overflow-x: hidden;
   letter-spacing: 3.6px;
   text-align: center;
   color: $white;
-  background-image: url(/static/image/special/intereon2207/title_bg.png);
+  background-image: url(/pc/static/image/special/intereon2207/title_bg.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -333,7 +333,7 @@ overflow-x: hidden;
 	border: solid 10px #54b7d4;
 	background-color: #ebf1f7;
 	border-radius: 32px;
-	
+
 	z-index: 100;
 	display: flex;
 	flex-direction: column;
@@ -511,12 +511,12 @@ overflow-x: hidden;
 
   &__text-sub {
 	font-size: vw(1366, 14);
-	
+
   }
 
   &__inform {
 	width: vw(1366, 460.5);
-  
+
   }
 
   &__inform-item {
@@ -604,13 +604,13 @@ overflow-x: hidden;
 	width: vw(1366, 1000);
 	height: vw(1366, 64);
 	border-radius: 45px;
-   background-image: url(/static/image/special/intereon2207/cta.png);
+   background-image: url(/pc/static/image/special/intereon2207/cta.png);
    background-size: contain;
    background-position: center;
    background-repeat: no-repeat;
    &:hover {
-	 background-image: url(/static/image/special/intereon2207/cta_hover.png);
-  
+	 background-image: url(/pc/static/image/special/intereon2207/cta_hover.png);
+
    }
   }
 
@@ -677,7 +677,7 @@ overflow-x: hidden;
 	 width: vw(1366, 1000.1);
 	 height: vw(1366, 767.1);
 	 border-radius: 32px;
-	 background-image: url(/static/image/special/intereon2207/size.png);
+	 background-image: url(/pc/static/image/special/intereon2207/size.png);
 	 background-size: contain;
 	 background-position: center;
 	 background-repeat: no-repeat;
@@ -735,14 +735,14 @@ overflow-x: hidden;
 	 margin-bottom: 2.5vw;
 	 width: vw(1366, 1000);
 	 height: vw(1366, 1336);
-	 background-image: url(/static/image/special/intereon2207/explanation.png);
+	 background-image: url(/pc/static/image/special/intereon2207/explanation.png);
 	 background-size: contain;
 	 background-position: center;
 	 background-repeat: no-repeat;
-  
+
    }
 
-  
+
  }
 
 
@@ -763,7 +763,7 @@ overflow-x: hidden;
 	 display: block;
 	 padding-top: 16vw;
 	 margin: 0 auto;
-	 background-image: url(/static/image/special/intereon2207/title_big.png);
+	 background-image: url(/pc/static/image/special/intereon2207/title_big.png);
 	 background-size: contain;
 	 background-position: center;
 	 background-repeat: no-repeat;
@@ -773,7 +773,7 @@ overflow-x: hidden;
 	 margin-top: -8vw;
 	 width: vw(1366, 1000);
 	 height: vw(1366, 2414);
-	 background-image: url(/static/image/special/intereon2207/days.jpg);
+	 background-image: url(/pc/static/image/special/intereon2207/days.jpg);
 	 background-repeat: no-repeat;
 	 background-position: center;
 	 background-size: contain;
