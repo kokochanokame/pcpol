@@ -9,8 +9,8 @@ body {
   line-height: 1.75;
   color: #30363a;
   position: relative;
-  cursor: none; 
-margin: 0;}
+  cursor: none;
+  margin: 0; }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
@@ -54,7 +54,7 @@ figure {
   margin-inline-end: 0; }
 
 img {
-  max-width: 100%;
+  width: 100%;
   vertical-align: bottom; }
 
 .container {
@@ -280,14 +280,15 @@ img {
 .production__img {
   flex-shrink: 0;
   margin-bottom: 1.1713030747vw;
-  width: 20.6442166911vw;
+  width: auto;
   height: 47.7306002928vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center; }
   .production__img img {
-    width: 14.5314787701vw; }
+    height: 32.7306vw;
+    width: auto; }
 .production__img1 {
   flex-shrink: 0;
   width: 5.9956076135vw;
@@ -339,7 +340,6 @@ img {
   text-align: left;
   color: #004898; }
 .production__title {
-  white-space: nowrap;
   font-family: "Zen Maru Gothic";
   font-size: 3.2210834553vw;
   font-weight: 900;
@@ -394,7 +394,7 @@ img {
   width: 33.7115666179vw; }
 .production__inform-item {
   display: flex;
-  gap: 1.3469985359vw;
+  gap: 1vw;
   padding: 1.0248901903vw 0;
   border-top: solid 1px #54b7d4; }
   .production__inform-item:first-child {
@@ -415,7 +415,6 @@ img {
   border-radius: 15px;
   color: #54b7d4; }
 .production__inform-text {
-  white-space: nowrap;
   font-family: "Noto Sans JP";
   font-size: 1.0248901903vw;
   font-weight: normal;
@@ -512,7 +511,7 @@ img {
   opacity: 0; }
 
 .accordion__wrapper {
-  display: none;
+  display: block;
   transition-duration: 0.2s; }
 
 .open.accordion__wrapper {
@@ -595,12 +594,13 @@ img {
   margin-top: -8vw;
   width: 73.2064421669vw;
   height: 176.7203513909vw;
-  background-image: url(/pc/static/image/special/intereon2207/days.jpg);
+  background-image: url(/pc/static/image/special/intereon2207/days.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain; }
 .day__attention {
-  margin-top: -6vw;
+  white-space: nowrap;
+  margin-top: 18.5px;
   font-family: "Noto Sans JP";
   font-size: 1.6105417277vw;
   font-weight: 500;

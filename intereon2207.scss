@@ -30,7 +30,7 @@ body {
   color: $black;
   position: relative;
   cursor: none;
-margin: 0;
+  margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -82,7 +82,7 @@ figure {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
   vertical-align: bottom;
 }
 
@@ -377,14 +377,15 @@ overflow-x: hidden;
   &__img {
 	flex-shrink: 0;
 	margin-bottom: vw(1366, 16);
-	width: vw(1366, 282);
-	height: vw(1366, 652);
+	width: auto;
+	height:  47.7306002928vw;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	img {
-	  width: vw(1366, 198.5);
+	  height: 32.7306vw;
+	  width: auto;
 	}
   }
 
@@ -522,7 +523,7 @@ overflow-x: hidden;
 
   &__inform-item {
 	display: flex;
-	gap: vw(1366, 18.4);
+	gap: 1vw;
 	padding: vw(1366, 14) 0;
 	border-top: solid 1px #54b7d4;
 
@@ -549,7 +550,6 @@ overflow-x: hidden;
   }
 
   &__inform-text {
-	white-space: nowrap;
 	font-family: $main-font;
 	font-size: vw(1366, 14);
 	font-weight: normal;
@@ -664,7 +664,7 @@ overflow-x: hidden;
 
 
 .accordion__wrapper {
-  display: none;
+  display: block;
   transition-duration: 0.2s;
 }
 
@@ -774,14 +774,15 @@ overflow-x: hidden;
 	 margin-top: -8vw;
 	 width: vw(1366, 1000);
 	 height: vw(1366, 2414);
-	 background-image: url(/pc/static/image/special/intereon2207/days.jpg);
+	 background-image: url(/pc/static/image/special/intereon2207/days.png);
 	 background-repeat: no-repeat;
 	 background-position: center;
 	 background-size: contain;
    }
 
    &__attention {
-	 margin-top: -6vw;
+	 white-space: nowrap;
+	 margin-top: 18.5px;
 	 font-family: $main-font;
 	 font-size: vw(1366, 22);
 	 font-weight: 500;
